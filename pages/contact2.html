@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto 2</title>
+    <link rel="shortcut icon" href="../img/icon/icon2.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="hardware.html">Hardware</a></li>
+                <li><a href="software.html">Software</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>Contact 2</li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Bienvenidos a Contacto 2</h1>
+    <div class="imagen">
+        <img src="../img/imagen04.jpg" width="500" height="600" alt="image04">
+    </div>
+    <!-- Formulario -->
+    <div id="formulario">
+        <h1>Formulario A1</h1>
+        <form action="" method="" target="_blank">
+            <fieldset>
+                <legend><b>Datos Personales</b></legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" maxlength="20" required>
+                <br><br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" maxlength="20" required>
+                <br><br>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" min="18" max="99">
+                <br><br>
+                <label for="fecNac">Fecha de Nacimiento</label>
+                <input type="date" name="fecNac" id="fecNac">
+                <br><br>
+                <label for="dni">DNI</label>
+                <input type="number" name="dni" id="dni" min="1000000" max="99000000">
+                <br><br>
+                <label for="adjunto">Adjuntar foto de frente</label>
+                <input type="file" name="adjunto" id="adjunto">
+                <br><br>
+                <label for="eMail">E-Mail</label>
+                <input type="email" name="eMail" id="eMail" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" placeholder="coloque su correo personal">
+                <br><br>
+                <label for="sexo">Sexo</label>
+                <select name="sexo" id="sexo">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="noBinario">No Binario</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend><b>Caracteristicas</b></legend>
+                <label for="estatura">Estatura</label>
+                <select name="estatura" id="estatura">
+                    <option value="baja">Baja</option>
+                    <option value="media">Media</option>
+                    <option value="alta">Alta</option>
+                </select>
+                <br><br>
+                <label for="peso">Peso</label>
+                <input type="number" name="peso" id="peso" placeholder="Ponga su peso en libras">
+                <br><br>
+                <label for="colorOjos">Color de Ojos</label>
+                <input type="color" name="colorOjos" id="colorOjos">
+                <br><br>
+                <label for="obs">Observaciones</label>
+                <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Estudios</legend>
+                <input type="checkbox" name="primaria" id="primaria">
+                <label for="primaria">Primaria</label>
+                <br>
+                <input type="checkbox" name="secundaria" id="secundaria">
+                <label for="secundaria">Secundaria</label>
+                <br>
+                <input type="checkbox" name="superior" id="superior">
+                <label for="superior">Superor</label>
+                <br><br>
+                <h3>Elija un solo lenguaje de Programación</h3>
+                <input type="radio" name="lenguaje" id="java" value="java">
+                <label for="java">Java</label>
+                <input type="radio" name="lenguaje" id="python" value="python">
+                <label for="python">Python</label>
+                <input type="radio" name="lenguaje" id="javascript" value="javascript">
+                <label for="javascript">Javascript</label>
+            </fieldset>
+            <input type="checkbox" name="condiciones" id="condiciones"><b>Acepto los términos y condiciones</b>
+            <button type="submit">Enviar</button>
+            <br>
+            <button type="reset" value="borrar">Borrar</button>
+        </form>
+    </div>
+</html>
