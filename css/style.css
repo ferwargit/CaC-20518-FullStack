@@ -1,0 +1,63 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    background-color: bisque;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* padding-left: 20px; */
+    padding-left: 11em;
+}
+
+h1 {
+    color: #16b931;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+}
+
+p {
+    color: #9b16b9; 
+    background-color: rgb(105, 171, 148); /* esto es un comentario */
+}
+
+#especial {
+    color: #b91616;
+    background-color: rgb(149, 171, 105);
+}
+
+.especial2 {
+    color: #c76f6f;
+    background-color: rgb(105, 153, 171);
+}
+
+ul.navbar {
+    list-style: none;
+    position: absolute;
+    color: #b91616;
+    padding: 0;
+    margin: 0;
+    top: 2em;
+    left: 1em;
+    width: 9em;
+}
+
+ul.navbar li {
+    background-color: #162cb9;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid rgb(152, 10, 10);
+}
+
+ul.navbar a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #5d16b9;
+}
+
+a:visited {
+    color: #16b92e;
+}
