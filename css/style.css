@@ -2,7 +2,7 @@
     /* margin: 0;
     padding: 0;
     box-sizing: border-box; */
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 body {
@@ -22,10 +22,10 @@ h1 {
     font-size: 26px;
 }
 
-p {
+/* p {
     color: #9b16b9; 
-    background-color: rgb(105, 171, 148); /* esto es un comentario */
-}
+    background-color: rgb(105, 171, 148);
+} */
 
 #especial {
     color: #b91616;
@@ -77,6 +77,28 @@ a:visited {
     background-color: aquamarine;
 } */
 
-.contenedor > div > h2, p {
+/* .contenedor > div > h2, p {
     color: rgb(255, 106, 0);
+} */
+
+/* Toma el h2 y el span */
+/* .articulo h2, span {
+    color: rgb(255, 106, 0);
+} */
+/* .articulo h2 ~ span {
+    color: rgb(255, 106, 0);
+} */
+.articulo h2 + span {
+    color: rgb(255, 106, 0);
+}
+
+.contenedor {
+    background-color: rgb(159, 29, 29);
+    width: 600px;
+    height: 550px;
+    /* max-width: 500px;
+    min-width: 200px; */
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid rgb(37, 10, 127);
 }
